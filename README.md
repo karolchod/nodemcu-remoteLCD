@@ -3,9 +3,9 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Connection schematic] (#connection schematic)
-* [UDP syntax explaination] (#udp syntax explaination)
-* [Examples of use] (#examples of use)
+* [Connection schematic] (#connection-schematic)
+* [UDP syntax explaination] (#udp-syntax-explaination)
+* [Examples of use] (#examples-of-use)
 
 ## General info
 This is my solution to use 2x16 LCD as remote display. 
