@@ -22,8 +22,7 @@ Project is created with:
 ![schematic](schematic.png)
 
 ## UDP syntax explaination
-Packet syntax is "<option><text>".
-Device reaction is based on first character (<option>) of UDP packet content. 
+Device reaction is based on first character (option) of UDP packet content. 
 * '0' - show text in top row
 * '1' - show text in bottom row
 * '2' - show long text in top row (scrolling feature)
