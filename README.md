@@ -19,6 +19,7 @@ Project is created with:
 * Python 3
 
 ## Connection schematic
+Device should be connected as on this drawing.
 ![schematic](schematic.png)
 
 ## UDP syntax explaination
