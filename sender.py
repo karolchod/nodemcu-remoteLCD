@@ -6,13 +6,13 @@ while 1:
                 if text == "exit":
                     break
                 byte_message = bytes(text, "utf-8")
-                opened_socket.sendto(byte_message, ("000.000.000.000", 4210)) #Please enter device IP address
+                opened_socket.sendto(byte_message, ("192.168.100.102", 4210)) #Please enter device IP address
             except KeyboardInterrupt:
                 print("Powrot")
                 # byte_message = bytes("9", "utf-8")
                 # opened_socket.sendto(byte_message, ("000.000.000.000", 4210))
                 break
 
-self.opened_socket.shutdown(socket.SHUT_RDWR)
-self.opened_socket.close()
+opened_socket.shutdown(socket.SHUT_RDWR)
+opened_socket.close()
 
